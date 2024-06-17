@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="background-text">BALAS</div>
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="function-button" onclick="clearDisplay()">C</button>
+            <button class="function-button" onclick="deleteLast()">DEL</button>
+            <button class="function-button" onclick="appendToDisplay('(')">(</button>
+            <button class="function-button" onclick="appendToDisplay(')')">)</button>
+            <button class="operator-button" onclick="appendToDisplay('/')">/</button>
+            <button class="number-button" onclick="appendToDisplay('7')">7</button>
+            <button class="number-button" onclick="appendToDisplay('8')">8</button>
+            <button class="number-button" onclick="appendToDisplay('9')">9</button>
+            <button class="operator-button" onclick="appendToDisplay('*')">*</button>
+            <button class="number-button" onclick="appendToDisplay('4')">4</button>
+            <button class="number-button" onclick="appendToDisplay('5')">5</button>
+            <button class="number-button" onclick="appendToDisplay('6')">6</button>
+            <button class="operator-button" onclick="appendToDisplay('-')">-</button>
+            <button class="number-button" onclick="appendToDisplay('1')">1</button>
+            <button class="number-button" onclick="appendToDisplay('2')">2</button>
+            <button class="number-button" onclick="appendToDisplay('3')">3</button>
+            <button class="operator-button" onclick="appendToDisplay('+')">+</button>
+            <button class="number-button" onclick="appendToDisplay('0')">0</button>
+            <button class="number-button" onclick="appendToDisplay('.')">.</button>
+            <button class="equal-button" onclick="calculate()">=</button>
+            <button class="operator-button" onclick="appendToDisplay('**')">^</button>
+            <button class="function-button" onclick="appendToDisplay('Math.sqrt(')">√</button>
+            <button class="function-button" onclick="appendToDisplay('Math.log10(')">log</button>
+            <button class="function-button" onclick="appendToDisplay('Math.log(')">ln</button>
+            <button class="function-button" onclick="appendToDisplay('Math.exp(')">exp</button>
+            <button class="function-button" onclick="appendToDisplay('Math.sin(')">sin</button>
+            <button class="function-button" onclick="appendToDisplay('Math.cos(')">cos</button>
+            <button class="function-button" onclick="appendToDisplay('Math.tan(')">tan</button>
+            <button class="function-button" onclick="appendToDisplay('Math.PI')">π</button>
+            <button class="function-button" onclick="appendToDisplay('toDegrees(')">deg</button>
+            <button class="function-button" onclick="appendToDisplay('toRadians(')">rad</button>
+            <button class="function-button" onclick="appendToDisplay('areaCircle(')">Area Circle</button>
+            <button class="function-button" onclick="appendToDisplay('areaRectangle(')">Area Rectangle</button>
+        </div>
+        <footer><strong> Created by balas_hmb</strong></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
