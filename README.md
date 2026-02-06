@@ -1,63 +1,66 @@
-Scientific Calculator 🧮
+# Scientific Calculator
 
-A fully functional scientific calculator built using HTML, CSS, and JavaScript — perfect for performing both basic and advanced mathematical operations directly in the browser.
+A versatile, web-based calculator built with HTML, CSS, and JavaScript. This project features multiple modes including a scientific calculator, a currency converter, and a unit size converter for length, area, and volume.
 
-🚀 Features
+## Live Demo
 
-📊 Basic arithmetic: +, -, ×, ÷
+You can try the live **demo** here: [https://bala-2305.github.io/scientific-calculator/](https://bala-2305.github.io/scientific-calculator/)
 
-🤓 Advanced functions: trigonometry (sin, cos, tan), logarithms, exponents
+## Screenshot
 
-🔢 Support for parentheses and order of operations
+![Calculator Screenshot](demo.png)
 
-🧠 Custom UI for easy use on desktop and mobile
+## Features
 
-🖱️ Interactive buttons and responsive design
+-   **Scientific Calculator**: Perform advanced mathematical calculations using functions like sine, cosine, tangent, logarithm, square root, and more. It also supports constants like π and e.
+-   **Currency Converter**: Easily convert between major currencies like USD, EUR, GBP, INR, and JPY with static exchange rates.
+-   **Size Converter**: Convert various units of measurement for length, area, and volume, including both metric and imperial systems.
+-   **History Panel**: Keep track of your previous calculations in the scientific mode. You can click on a history item to reload it into the calculator.
+-   **Keyboard Support**: Use your keyboard for faster calculations in the scientific mode.
+-   **Tabbed Interface**: A clean, tabbed interface to switch between the different calculator modes.
 
-🛠 Built With
+## How to Use
 
-HTML5 – Structure of the calculator UI
+1.  **Switching Modes**: Click on the "Scientific", "Currency", or "Size" tabs at the top to switch between the different calculators.
 
-CSS3 – Visual design and styling
+2.  **Scientific Calculator**:
+    *   Use the buttons to input numbers and operations.
+    *   The formula is displayed in the top input field, and the result is shown in the bottom display.
+    *   `AC` clears the entire input, and `DEL` removes the last character.
+    *   The history of your calculations is shown on the right. Click any entry to bring it back to the input field.
 
-JavaScript – Logic and mathematical operations
+3.  **Currency Converter**:
+    *   Enter the amount you want to convert.
+    *   Select the 'from' and 'to' currencies from the dropdown menus.
+    *   Click "Convert" to see the result.
 
-(Optional) Add libraries if applicable
+4.  **Size Converter**:
+    *   First, select the type of conversion: "Length", "Area", or "Volume".
+    *   Enter the value you want to convert.
+    *   Choose the 'from' and 'to' units.
+    *   Click "Convert" to get the result.
 
-📁 Demo (Optional)
+## Keyboard Shortcuts (Scientific Mode)
 
-Add screenshot or live demo link here.
+-   **Numbers (0-9)**, **Operators (+, -, \*, /)**, **Decimal (.)**, **Parentheses (())**: Directly input into the formula.
+-   **Enter**: Calculate the result.
+-   **Backspace**: Delete the last character.
+-   **Escape**: Clear the display.
+-   **s**: `sin(`
+-   **c**: `cos(`
+-   **t**: `tan(`
+-   **l**: `log(` (base 10)
+-   **n**: `ln(` (natural log)
+-   **r**: `sqrt(`
+-   **p**: `π`
+-   **e**: `e`
 
-🧩 Usage
+## Technologies Used
 
-Just open the index.html file in any modern browser:
+-   HTML5
+-   CSS3
+-   JavaScript
 
-git clone https://github.com/bala-2305/scientific-calculator.git
-cd scientific-calculator
-open index.html
+## Author
 
-💡 How it Works
-
-Click buttons or use keyboard input (if supported)
-
-Use parentheses for complex expressions
-
-Click = to evaluate
-
-🧑‍💻 Contributing
-
-Contributions are welcome!
-
-Fork the project
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m "Add some feature")
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📄 License
-
-This project is open source — include your license here (e.g., MIT).
+Created by **balas_hmb**
